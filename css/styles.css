@@ -37,3 +37,36 @@ body{
 .navbar-dark {
      background-color: #512DA8;
 }
+
+.card-header{
+    background-color:rgba(228, 156, 2, 0.753);
+}
+
+.radio-buttons{
+    padding: 0px 0px 50px 0px
+}
+
+.radio-buttons-within{
+    padding: 0px 20px 0px 0px
+}
+
+.card-position{
+    padding: 50px 0px 50px 0px
+}
+
+
+.submit-button{
+    padding: 0px 15px 0px 0px;
+}
+
+.reserve-table{
+    background-color:rgba(228, 156, 2, 0.753);
+    color:black
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}

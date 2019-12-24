@@ -23,7 +23,7 @@
                 <span class='navbar-toggler-icon'></span>
             </button>
             <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
-                        <div class='collapse navbar-collapse' id='Navbar'>
+            <div class='collapse navbar-collapse' id='Navbar'>
                 <ul class='navbar-nav mr-auto'>
                     <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>
                             Home</a></li>
@@ -31,7 +31,8 @@
                                 class="fa fa-info fa-lg"></span> About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span
+                                class="fa fa-address-card fa-lg"></span>
                             Contact</a></li>
                 </ul>
             </div>
@@ -47,9 +48,14 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
                         lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class=" col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
-                </div>            </div>
+                    </div>
+                    <div href='#reserve' class="col-12 col-sm align-self-center ">
+                            <a href="#reserve" class="btn btn-warning btn-block">Reserve Table</a>
+                    </div>
+
+            </div>
         </div>
     </header>
 
@@ -60,8 +66,7 @@
             </div>
             <div class="col-12 col-sm order-sm-first col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center"
-                            src="img/uthappizza.png" alt="Uthappizza">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="Uthappizza">
                     <div class="media-body">
                         <h2 class="mt-0">Uthappizza
                             <span class="badge badge-danger">HOT</span>
@@ -75,6 +80,8 @@
                 </div>
 
             </div>
+
+
         </div>
 
 
@@ -83,10 +90,21 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col-12 col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers,
-                    six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just
-                    $19.99 per person </p>
+                <div class='media'>
+                    <div class='media-body'>
+                        <h2>Weekend Grand Buffet
+                            <span class="badge badge-danger">NEW</span>
+                        </h2>
+
+                        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing
+                            appetizers,
+                            six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for
+                            just
+                            $19.99 per person </p>
+                    </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
+                </div>
+
             </div>
         </div>
 
@@ -96,8 +114,8 @@
             </div>
             <div class="col-12 col-sm order-sm-first col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center"
-                            src="img/alberto.png" alt="Alberto Somayya">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png"
+                        alt="Alberto Somayya">
                     <div class="media-body">
                         <h2 class="mt-0">Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
@@ -105,14 +123,67 @@
                             International experience having worked closely with
                             whos-who in the culinary world, he specializes in
                             creating mouthwatering Indo-Italian fusion experiences.
-                            </p>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div id='reserve' class=' col-12 card-position'>
+            <div class='card'>
+                <h3 class='card-header card-header text-white'> Reserve a Table</h3>
+                <div class='card-body'>
+                    <form>
+                        <dl class='form-group row'>
+                            <dt class='col-4 col-sm-3'>Number of Guests</dt>
+                            <dd class='col-8 col-sm-9 control radio-buttons'>
+                                <label class="radio radio-buttons-within">
+                                    <input type="radio" name="answer">
+                                    1
+                                </label>
+                                <label class="radio radio-buttons-within">
+                                    <input type="radio" name="answer">
+                                    2
+                                </label>
+                                <label class="radio radio-buttons-within">
+                                    <input type="radio" name="answer">
+                                    3
+                                </label>
+                                <label class="radio radio-buttons-within">
+                                    <input type="radio" name="answer">
+                                    4
+                                </label>
+                                <label class="radio radio-buttons-within">
+                                    <input type="radio" name="answer">
+                                    5
+                                </label>
+                                <label class="radio radio-buttons-within">
+                                    <input type="radio" name="answer">
+                                    6
+                                </label>
+                            </dd>
+
+                            <dt class='col-4 col-sm-2'>Date and Time</dt>
+                            <div class='form-group row radio-buttons'>
+                                <div class='col-4 col-sm-5'>
+                                    <input type="text" class="form-control" id="Date" name="Date" placeholder="Date">
+                                </div>
+                                <div class='col-4 col-sm-5'>
+                                    <input type="text" class="form-control" id="Time" name="Time" placeholder="Time">
+                                </div>
+                            </div>
+                            <div class="offset-sm-2 col-10 submit-button">
+                                <button type="submit" class="btn btn-primary">Reserve</button>
+                            </div>
+                        </dl>
+                    </form>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-    <footer class='footer'>
+    <footer class='footer '>
         <div class="container">
             <div class="row">
                 <div class="col-4 offset-1 col-sm-2">
@@ -129,17 +200,22 @@
                     <address>
                         <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
                         <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
-                        <i class="fa fa-envelope fa-lg"></i>: 
+                        <i class="fa fa-envelope fa-lg"></i>:
                         <a href="mailto:confusion@food.net">confusion@food.net</a>
                     </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i
+                                class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
+                                class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                                class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                                class="fa fa-youtube"></i></a>
                         <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
